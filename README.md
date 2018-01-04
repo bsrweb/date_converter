@@ -11,7 +11,7 @@ Example:
 {exp:date_converter
 	language="fr_FR.UTF-8"
 	format="%e %B %Y"
-	convert_entities="yes|no"
+	convert_entities="yes"
 }
 	{date_field}
 {/exp:date_converter}
