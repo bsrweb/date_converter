@@ -17,6 +17,6 @@ Example:
 {/exp:date_converter}
 ```
 
-* The 'language' peramater is dependent on the locales installed on your server. 
+* The 'language' peramater is dependent on the locales installed on your server. Use the commane, `locale -a` to see the full list.
 * The 'format' parameter is uses variables in the strftime() PHP function.
 * The 'convert_entities' will use HTML entities; default is no.
