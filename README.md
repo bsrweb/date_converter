@@ -17,6 +17,6 @@ Example:
 {/exp:date_converter}
 ```
 
-* The 'language' peramater is dependent on the locales installed on your server. Use the commane, `locale -a`, to see the full list.
-* The 'format' parameter is uses variables in the strftime() PHP function.
-* The 'convert_entities' will use HTML entities; default is no.
+* The `language` parameter is dependent on the locales installed on your server. Use the command, `locale -a`, to see the full list of locales your server supports.
+* __Important Note__: The `format` parameter uses variables in the strftime() PHP function and not EE's date formatting variables. Please see: http://php.net/manual/en/function.strftime.php to properly output your date and time variables.
+* The `convert_entities` will use HTML entities; default is no.
